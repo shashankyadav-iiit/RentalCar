@@ -1,0 +1,23 @@
+.car-container {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    animation: carAnimation 18s infinite;
+  }
+  
+  @keyframes carAnimation {
+    0% {
+      background-image: url('/public/images/car1.jpg'); /* First Car */
+    }
+    33% {
+      background-image: url('/public/images/car2.jpg'); /* Second Car */
+    }
+    66% {
+      background-image: url('/public/images/car3.jpg'); /* Third Car */
+    }
+    100% {
+      background-image: url('/public/images/car4.jpg'); /* Loop back to First Car */
+    }
+  }
+  
